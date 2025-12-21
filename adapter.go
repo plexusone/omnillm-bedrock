@@ -1,0 +1,58 @@
+// Package bedrock provides AWS Bedrock provider adapter for the fluxllm unified interface.
+// This is an external provider for github.com/grokify/fluxllm.
+package bedrock
+
+import (
+	"context"
+	"fmt"
+
+	"github.com/grokify/fluxllm/provider"
+)
+
+// Provider represents the Bedrock provider adapter
+type Provider struct {
+	client *Client
+}
+
+// NewProvider creates a new Bedrock provider adapter.
+// Use this with fluxllm.ClientConfig.CustomProvider to integrate Bedrock.
+//
+// Example:
+//
+//	bedrockProvider, err := bedrock.NewProvider("us-east-1")
+//	if err != nil {
+//	    log.Fatal(err)
+//	}
+//
+//	client, err := fluxllm.NewClient(fluxllm.ClientConfig{
+//	    CustomProvider: bedrockProvider,
+//	})
+func NewProvider(region string) (provider.Provider, error) {
+	client, err := New(region)
+	if err != nil {
+		return nil, err
+	}
+	return &Provider{client: client}, nil
+}
+
+// Name returns the provider name
+func (p *Provider) Name() string {
+	return p.client.Name()
+}
+
+// CreateChatCompletion creates a chat completion
+func (p *Provider) CreateChatCompletion(ctx context.Context, req *provider.ChatCompletionRequest) (*provider.ChatCompletionResponse, error) {
+	// TODO: Implement full Bedrock API integration
+	return nil, fmt.Errorf("bedrock implementation not fully implemented in this demo")
+}
+
+// CreateChatCompletionStream creates a streaming chat completion
+func (p *Provider) CreateChatCompletionStream(ctx context.Context, req *provider.ChatCompletionRequest) (provider.ChatCompletionStream, error) {
+	// TODO: Implement Bedrock streaming API
+	return nil, fmt.Errorf("bedrock streaming not implemented in this demo")
+}
+
+// Close closes the provider
+func (p *Provider) Close() error {
+	return p.client.Close()
+}
