@@ -1,5 +1,5 @@
 // Package bedrock provides AWS Bedrock API client implementation.
-// This is an external provider for github.com/grokify/fluxllm.
+// This is an external provider for github.com/agentplexus/omnillm.
 package bedrock
 
 import (

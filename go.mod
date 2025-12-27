@@ -1,11 +1,11 @@
-module github.com/grokify/fluxllm-bedrock
+module github.com/agentplexus/omnillm-bedrock
 
 go 1.24.5
 
 require (
+	github.com/agentplexus/omnillm v0.9.0
 	github.com/aws/aws-sdk-go-v2/config v1.32.6
 	github.com/aws/aws-sdk-go-v2/service/bedrockruntime v1.47.1
-	github.com/grokify/fluxllm v0.7.0
 )
 
 require (

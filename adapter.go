@@ -1,12 +1,12 @@
-// Package bedrock provides AWS Bedrock provider adapter for the fluxllm unified interface.
-// This is an external provider for github.com/grokify/fluxllm.
+// Package bedrock provides AWS Bedrock provider adapter for the omnillm unified interface.
+// This is an external provider for github.com/agentplexus/omnillm.
 package bedrock
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/grokify/fluxllm/provider"
+	"github.com/agentplexus/omnillm/provider"
 )
 
 // Provider represents the Bedrock provider adapter
@@ -15,7 +15,7 @@ type Provider struct {
 }
 
 // NewProvider creates a new Bedrock provider adapter.
-// Use this with fluxllm.ClientConfig.CustomProvider to integrate Bedrock.
+// Use this with omnillm.ClientConfig.CustomProvider to integrate Bedrock.
 //
 // Example:
 //
@@ -24,7 +24,7 @@ type Provider struct {
 //	    log.Fatal(err)
 //	}
 //
-//	client, err := fluxllm.NewClient(fluxllm.ClientConfig{
+//	client, err := omnillm.NewClient(omnillm.ClientConfig{
 //	    CustomProvider: bedrockProvider,
 //	})
 func NewProvider(region string) (provider.Provider, error) {
