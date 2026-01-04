@@ -1,0 +1,15 @@
+# Credentials
+.env
+.env.*
+.envrc
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Test binaries
+*.test
