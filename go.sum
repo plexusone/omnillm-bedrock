@@ -1,5 +1,5 @@
-github.com/agentplexus/omnillm v0.10.0 h1:c+DixBvvHtqUpaQvj9vhzCzJ+Bfa8nP1nxmVyFVEAsU=
-github.com/agentplexus/omnillm v0.10.0/go.mod h1:2ZmGwLt2SdmYtwT9+kPt0vlLHyQFy7NtMjXMZQbkLhI=
+github.com/agentplexus/omnillm v0.11.0 h1:kjmdmmu0wDVLqrfcECMTLw+hkTvVSvN+FIpQea126PE=
+github.com/agentplexus/omnillm v0.11.0/go.mod h1:vJ2I0U/p8n9wtX4vT2pni/seRqhnbdKknrZwEdAb5ZU=
 github.com/aws/aws-sdk-go-v2 v1.41.1 h1:ABlyEARCDLN034NhxlRUSZr4l71mh+T5KAeGh6cerhU=
 github.com/aws/aws-sdk-go-v2 v1.41.1/go.mod h1:MayyLB8y+buD9hZqkCW3kX1AKq07Y5pXxtgB+rRFhz0=
 github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.4 h1:489krEF9xIGkOaaX3CE/Be2uWjiXrkCH6gUX+bZA/BU=
