@@ -4,9 +4,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/agentplexus/omnillm/provider"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/types"
+	"github.com/plexusone/omnillm/provider"
 )
 
 // eventStream defines the interface for reading Bedrock stream events.

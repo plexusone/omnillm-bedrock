@@ -1,5 +1,3 @@
-github.com/agentplexus/omnillm v0.10.0 h1:c+DixBvvHtqUpaQvj9vhzCzJ+Bfa8nP1nxmVyFVEAsU=
-github.com/agentplexus/omnillm v0.10.0/go.mod h1:2ZmGwLt2SdmYtwT9+kPt0vlLHyQFy7NtMjXMZQbkLhI=
 github.com/aws/aws-sdk-go-v2 v1.41.4 h1:10f50G7WyU02T56ox1wWXq+zTX9I1zxG46HYuG1hH/k=
 github.com/aws/aws-sdk-go-v2 v1.41.4/go.mod h1:mwsPRE8ceUUpiTgF7QmQIJ7lgsKUPQOUl3o72QBrE1o=
 github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.7 h1:3kGOqnh1pPeddVa/E37XNTaWJ8W6vrbYV9lJEkCnhuY=
@@ -32,3 +30,5 @@ github.com/aws/aws-sdk-go-v2/service/sts v1.41.9 h1:Cng+OOwCHmFljXIxpEVXAGMnBia8
 github.com/aws/aws-sdk-go-v2/service/sts v1.41.9/go.mod h1:LrlIndBDdjA/EeXeyNBle+gyCwTlizzW5ycgWnvIxkk=
 github.com/aws/smithy-go v1.24.2 h1:FzA3bu/nt/vDvmnkg+R8Xl46gmzEDam6mZ1hzmwXFng=
 github.com/aws/smithy-go v1.24.2/go.mod h1:YE2RhdIuDbA5E5bTdciG9KrW3+TiEONeUWCqxX9i1Fc=
+github.com/plexusone/omnillm v0.13.0 h1:9wA0OmRAmPK9D+d+2vircFWXafDajurwUhCWmb3Pc8g=
+github.com/plexusone/omnillm v0.13.0/go.mod h1:PV+UHu6H2EAAmTpVnARRaV70DGoFMuOLxjR9cbboPkI=

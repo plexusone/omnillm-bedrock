@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/agentplexus/omnillm/provider"
+	"github.com/plexusone/omnillm/provider"
 )
 
 // Integration tests require AWS credentials configured via environment or AWS config file.

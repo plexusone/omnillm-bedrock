@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/agentplexus/omnillm/provider"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/types"
+	"github.com/plexusone/omnillm/provider"
 )
 
 // mockEventStream simulates a Bedrock event stream for testing.
