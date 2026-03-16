@@ -1,10 +1,29 @@
 # OmniLLM Provider for AWS Bedrock
 
-[![Build Status][build-status-svg]][build-status-url]
-[![Lint Status][lint-status-svg]][lint-status-url]
+[![Go CI][go-ci-svg]][go-ci-url]
+[![Go Lint][go-lint-svg]][go-lint-url]
+[![Go SAST][go-sast-svg]][go-sast-url]
 [![Go Report Card][goreport-svg]][goreport-url]
 [![Docs][docs-godoc-svg]][docs-godoc-url]
+[![Visualization][viz-svg]][viz-url]
 [![License][license-svg]][license-url]
+
+ [go-ci-svg]: https://github.com/plexusone/omnillm-bedrock/actions/workflows/go-ci.yaml/badge.svg?branch=main
+ [go-ci-url]: https://github.com/plexusone/omnillm-bedrock/actions/workflows/go-ci.yaml
+ [go-lint-svg]: https://github.com/plexusone/omnillm-bedrock/actions/workflows/go-lint.yaml/badge.svg?branch=main
+ [go-lint-url]: https://github.com/plexusone/omnillm-bedrock/actions/workflows/go-lint.yaml
+ [go-sast-svg]: https://github.com/plexusone/omnillm-bedrock/actions/workflows/go-sast-codeql.yaml/badge.svg?branch=main
+ [go-sast-url]: https://github.com/plexusone/omnillm-bedrock/actions/workflows/go-sast-codeql.yaml
+ [goreport-svg]: https://goreportcard.com/badge/github.com/plexusone/omnillm-bedrock
+ [goreport-url]: https://goreportcard.com/report/github.com/plexusone/omnillm-bedrock
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/plexusone/omnillm-bedrock
+ [docs-godoc-url]: https://pkg.go.dev/github.com/plexusone/omnillm-bedrock
+ [viz-svg]: https://img.shields.io/badge/visualizaton-Go-blue.svg
+ [viz-url]: https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=plexusone%2Fomnillm-bedrock
+ [loc-svg]: https://tokei.rs/b1/github/plexusone/omnillm-bedrock
+ [repo-url]: https://github.com/plexusone/omnillm-bedrock
+ [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
+ [license-url]: https://github.com/plexusone/omnillm-bedrock/blob/master/LICENSE
 
 [OmniLLM](https://github.com/agentplexus/omnillm) Provider for AWS Bedrock is an external provider module that demonstrates how to create custom providers for OmniLLM without adding heavy dependencies to the core library.
 
@@ -201,16 +220,3 @@ To create a custom provider for omnillm:
 2. Use `omnillm.ClientConfig.CustomProvider` to inject your provider
 
 See the source code of this module as a reference implementation.
-
- [build-status-svg]: https://github.com/agentplexus/omnillm-bedrock/actions/workflows/ci.yaml/badge.svg?branch=main
- [build-status-url]: https://github.com/agentplexus/omnillm-bedrock/actions/workflows/ci.yaml
- [lint-status-svg]: https://github.com/agentplexus/omnillm-bedrock/actions/workflows/lint.yaml/badge.svg?branch=main
- [lint-status-url]: https://github.com/agentplexus/omnillm-bedrock/actions/workflows/lint.yaml
- [goreport-svg]: https://goreportcard.com/badge/github.com/agentplexus/omnillm-bedrock
- [goreport-url]: https://goreportcard.com/report/github.com/agentplexus/omnillm-bedrock
- [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/agentplexus/omnillm-bedrock
- [docs-godoc-url]: https://pkg.go.dev/github.com/agentplexus/omnillm-bedrock
- [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
- [license-url]: https://github.com/agentplexus/omnillm-bedrock/blob/master/LICENSE
- [used-by-svg]: https://sourcegraph.com/github.com/agentplexus/omnillm-bedrock/-/badge.svg
- [used-by-url]: https://sourcegraph.com/github.com/agentplexus/omnillm-bedrock?badge
