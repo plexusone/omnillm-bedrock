@@ -1,11 +1,36 @@
 {
-  "ir_version": "1.0",
+  "irVersion": "1.0",
   "project": "omnillm-bedrock",
-  "repository": "https://github.com/agentplexus/omnillm-bedrock",
-  "generated_at": "2026-01-04T12:00:00Z",
+  "repository": "https://github.com/plexusone/omnillm-bedrock",
+  "versioning": "semver",
+  "commitConvention": "conventional",
   "releases": [
     {
-      "version": "0.3.0",
+      "version": "v0.4.0",
+      "date": "2026-03-16",
+      "highlights": [
+        { "description": "Organization migration from agentplexus to plexusone" }
+      ],
+      "breaking": [
+        { "description": "Module path changed from `github.com/agentplexus/omnillm-bedrock` to `github.com/plexusone/omnillm-bedrock`", "commit": "7fba48a" }
+      ],
+      "upgradeGuide": [
+        { "description": "Update import paths from `github.com/agentplexus/omnillm-bedrock` to `github.com/plexusone/omnillm-bedrock`" },
+        { "description": "Run `go get github.com/plexusone/omnillm-bedrock@v0.4.0` to update dependency" }
+      ],
+      "changed": [
+        { "description": "Module path migrated to `github.com/plexusone/omnillm-bedrock`", "commit": "7fba48a" },
+        { "description": "Dependency updated to `github.com/plexusone/omnillm` v0.13.0", "commit": "7fba48a" }
+      ],
+      "dependencies": [
+        { "description": "Bump `github.com/plexusone/omnillm` from v0.10.0 to v0.13.0", "commit": "7fba48a" },
+        { "description": "Bump `github.com/aws/aws-sdk-go-v2/config` to v1.32.12", "commit": "de0d589" },
+        { "description": "Bump `github.com/aws/aws-sdk-go-v2/service/bedrockruntime` to v1.50.2", "commit": "4dde2bc" },
+        { "description": "Bump `github.com/aws/smithy-go` from v1.24.0 to v1.24.2", "commit": "6d6ce16" }
+      ]
+    },
+    {
+      "version": "v0.3.0",
       "date": "2026-01-04",
       "highlights": [
         { "description": "Streaming support via Bedrock ConverseStream API" },
@@ -33,7 +58,7 @@
         { "description": "`types.go` removed (types consolidated into other files)" }
       ],
       "dependencies": [
-        { "description": "Added `github.com/aws/smithy-go` as direct dependency for bearer token support", "component": "github.com/aws/smithy-go", "component_version": "1.24.0" }
+        { "description": "Added `github.com/aws/smithy-go` as direct dependency for bearer token support", "component": "github.com/aws/smithy-go", "componentVersion": "1.24.0" }
       ],
       "documentation": [
         { "description": "Added AWS authentication priority table with 7 credential sources" },
@@ -48,7 +73,7 @@
       ]
     },
     {
-      "version": "0.2.0",
+      "version": "v0.2.0",
       "date": "2025-12-15",
       "added": [
         { "description": "Core chat completion support via Bedrock Converse API" },
@@ -63,7 +88,7 @@
       ]
     },
     {
-      "version": "0.1.0",
+      "version": "v0.1.0",
       "date": "2025-12-01",
       "added": [
         { "description": "Initial release" },
