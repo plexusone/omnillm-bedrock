@@ -6,7 +6,7 @@ require (
 	github.com/agentplexus/omnillm v0.10.0
 	github.com/aws/aws-sdk-go-v2/config v1.32.6
 	github.com/aws/aws-sdk-go-v2/service/bedrockruntime v1.49.0
-	github.com/aws/smithy-go v1.24.0
+	github.com/aws/smithy-go v1.24.2
 )
 
 require (
